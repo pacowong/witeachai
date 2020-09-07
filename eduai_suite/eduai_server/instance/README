@@ -1,0 +1,3 @@
+eduai_data.sqlite stores the user data. The mapping between Witeach.ai project and Wit.ai can be configured in the database.
+
+big_cat_fact_proj is the name of one of the projects. The folder contains all responses to the intents defined in Wit.ai app. Teachers can be edited the files by Microsoft Excel.

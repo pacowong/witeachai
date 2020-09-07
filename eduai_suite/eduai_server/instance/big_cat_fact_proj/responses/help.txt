@@ -1,0 +1,8 @@
+wit_response
+"You may ask me about rusty spotted cat, puma, snow leopart, and sand cat."
+"I can tell you the diet of manul, bobcat, margay, ocelot, lion, and serval."
+"I can tell you the diet of wildcat, lynx, jaguar, tiger, clouded leopard, and caracal."
+"You may ask me 'how tall is a leopard""."
+You may ask me 'how tall is a cheetah'.
+You may ask me 'what is the color of a marbled cat'.
+You may ask me 'what is the color of a jaguarundi'.

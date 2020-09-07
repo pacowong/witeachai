@@ -1,0 +1,61 @@
+animal:animal	appearance_attr:appearance_attr	wit_response
+rusty spotted cat	height	"They are the smallest cats, with small, round ears, a body about 40 cm in length, plus a relatively short 20 cm tail."
+puma	height	"The largest male pumas can be as big as eight feet (2.4 meters) long, and females can be as large as seven feet (2.1 meters)."
+snow leopard	height	"The snow leopard attains a length of about 2.1 metres (7 feet), including the 0.9-metre- (3-foot-) long tail. It stands about 0.6 metre (2 feet) high at the shoulder."
+sand cat	height	Its head-and-body length ranges from 39-52 cm (15-20 in) with a 23-31 cm (9.1-12.2 in) long tail.
+manul	height	It is about the size of a domestic cat. Its body is 46 to 65 cm (18 to 26 in) long and its tail 21 to 31 cm (8.3 to 12.2 in).
+bobcat	height	The bobcat only is only 17 to 23 inches (43 to 58 cm) high.
+margay	height	"It has very large eyes and a very long tail that is 70 percent as long as its body. Its body however, is smaller, growing up to 27 inches."
+ocelot	height	"Ocelots grow up to 3 feet and 2 inches (100 cm) in length, plus a foot and a half (45 cm) tail length."
+lion	height	They grow to a length of about 10 feet (3 meters) and stand about 4 feet (1.2 meters) tall.
+serval	height	"The serval is a slender, medium-sized cat that stands 54-62 cm (21-24 in) at the shoulder."
+wildcat	height	Wildcat stands 14-16 inches tall and reaches lengths of 29-46 inches.
+lynx	height	The lynx also stands at 30 to 42 inches (74 to 107 cm) high.
+jaguar	height	The jaguar stands 63 to 76 cm (25 to 30 in) tall at the shoulders
+tiger	height	A tiger usually is about 6 ft to 9 ft in length from nose to tail tip. A large tiger might be 10 ft (3 meters) long. The tail is about 36 inches (91 cm or 3 ft).
+clouded leopard	height	"Females vary in head-to-body length from 68.6 to 94 cm (27.0 to 37.0 in), with a tail 61 to 82 cm (24 to 32 in) long. Males are larger at 81 to 108 cm (32 to 43 in) with a tail 74 to 91 cm (29 to 36 in) long. Its shoulder height varies from 50 to 55 cm (20 to 22 in)."
+caracal	height	"The length is 65 cm (about 2 ft), plus 30 cm tail (about 1 foot). Caracal reaches 40-50 cm (16-20 in) at the shoulder."
+leopard	height	"Leopards are usually 6.5-10 feet (2-3 m) long, including 23-43 inches (58-110cm) of tail, and stand 17.5-30.5 inches (43-78 cm) tall. Female leopards are usually only two-thirds the size of male leopards. "
+cheetah	height	"Cheetahs typically reach 67-94 cm (26-37 in) at the shoulder, and the head-and-body length is between 1.1 and 1.5 m (3.6 and 4.9 ft)."
+marbled cat	height	Marbled cats range from 45 to 62 cm (18 to 24 in) in head-body length with a 35 to 55 cm (14 to 22 in) long and thickly furred tail.
+jaguarundi	height	This medium-sized cat has an average length of 65 cm (30 inches) with 45 cm (20 inches) of tail. It reaches nearly 36 cm (14 in) at the shoulder.
+rusty spotted cat	color	"The color of the fur is gray, with rusty spots all over the back and the flanks."
+puma	color	Most pumas are a light brown color.
+snow leopard	color	"Snow leopards have grey-and-white fur with long tails and rosettes on the flanks and spots on the head and neck, like jaguars. This color resembles the rocks and snow of their environment and helps them stalk their prey."
+sand cat	color	"With its sandy to light grey fur, a sand cat is well camouflaged in a desert environment."
+manul	color	"Its long, silky coat varies in color from light gray to russet brown, with white tips to its hairs giving a sparkling, almost iridescent appearance. There are dark lines on its cheeks, rings on its tail, and its lips, chin, and throat are white."
+bobcat	color	"Most bobcats are brown or brownish red with a white underbelly and short, black-tipped tail."
+margay	color	"The margay is a spotted, golden brown cat with white on the belly, chest, throat, and chin. The spots may be solid black or have pale centers. The ears have white eye spots on the backs and the tail is either ringed or spotted."
+ocelot	color	Their fur is gold with black spots.
+lion	color	"Lions have tawny, or yellowish brown, fur."
+serval	color	Their fur is yellow with black spots. On the back of the ears are horizontal gray bars.
+wildcat	color	The European Wildcat is typically a gray-brown cat with a wide variety in ground color. The African Wildcat's ground color varies from sandy through yellow-gray to grayish-brown and dark gray. The Asian Wildcat is pale sand-colored or gray and is covered with distinct black spots.
+lynx	color	"Some of them have dark spots, while others have plain yellow or gray fur. All of them have white bellies."
+jaguar	color	Jaguars usually have background fur that is orange-yellow in color. There are numerous rings of spots on their flanks and spots on their heads and necks.
+tiger	color	"Tigers are usually orange or reddish orange with very bold, uneven black stripes and white areas on the chest, neck, belly and inside of the legs. Their stripes act as camouflage, making it difficult for them to be seen when they are among the trees and shrubs of the jungle. The stripes will vary with each individual tiger. "
+clouded leopard	color	"The clouded leopard's fur is of a dark grey or ochreous ground-color, often largely obliterated by black and dark dusky-grey blotched pattern. There are black spots on the head, and the ears are black."
+caracal	color	"The color of the fur may be wine-red, gray or sand-colored. Young caracals bear reddish spots on the underside, while adults do not have markings except for black spots above the eyes. The caracal has long, tufted black ears."
+leopard	color	"Depending on where it lives, a leopard's coat can be a pale straw color, grey, gold-ish, or black. All leopards have black spots."
+cheetah	color	"They have a white belly, and a dark stripe that looks like a tear on both sides of their faces. Cheetahs have round dark spots on their fur."
+marbled cat	color	"Marbled cat's beautiful, striking coat is pale brown, with irregular slightly darker brown blotches sharply outlined in dark brown or black."
+jaguarundi	color	"The fur is a uniform chestnut brown, but can range from grey to dark brown. Their coats have no markings except for spots at birth. "
+rusty spotted cat	weight	They weigh from three to four pounds.
+puma	weight	"The males weigh in a bit less than the average adult human at about 150 pounds (70 kilograms), with females weighing even less at 75 pounds (35 kilograms) or less."
+snow leopard	weight	"Male snow leopards weigh between 90-115 pounds (40-52 kg), and females weigh between 75-90 pounds (34-40 kg)."
+sand cat	weight	It weighs 1.5-3.4 kg (3.3-7.5 lb).
+manul	weight	It weighs 2.5 to 4.5 kg (5.5 to 9.9 lb).
+bobcat	weight	The bobcat males only weigh 16 to 28 pounds (7 to 13 kg) and the females weigh 10 to 18 pounds (5 to 8 kg).
+margay	weight	Margays weigh between 9-20 pounds.
+ocelot	weight	Males weigh 15 to 34 lbs. (7 to 15.5 kg) and females weigh 14.5 to 25 lbs. (6.6 to 11.3 kg).
+lion	weight	"Male lions are larger than the lionesses (females), weighing as much as five men or about 550 pounds (250 kilograms). The more slender lioness usually weighs about as much as 400 points (180 kilograms). "
+serval	weight	The smaller female ranges from less than twenty pounds up to about thirty-five pounds. Males generally weigh thirty to fifty pounds
+wildcat	weight	Wildcat weighs between 7-18 pounds.
+lynx	weight	"The lynx males weigh 40 pounds (18 kg) or more, and females weigh 18 to 30 pounds (8 to 14 kg)."
+jaguar	weight	Its size and weight vary considerably: weights are normally in the range of 56-96 kg (123-212 lb). Exceptionally big males have been recorded to weigh as much as 158 kg (348 lb). The smallest females weigh about 36 kg (79 lb).
+tiger	weight	Tigers weigh about 350 to 550 pounds (160 to 250 kg).
+clouded leopard	weight	Clouded leopards weigh between 11.5 and 23 kg (25 and 51 lb).
+caracal	weight	Caracal weighs 8-19 kg (18-42 lb).
+leopard	weight	"Leopards weigh about the same as a human or a large dog, 65-155 pounds (30-70 kg)."
+cheetah	weight	"Adult cheetahs weigh from 90 to 140 pounds (40-65 kg), and are around 4 to 5 feet (112-135 cm) in length."
+marbled cat	weight	Recorded weights vary between 2 and 5 kg (4.4 and 11.0 lb).
+jaguarundi	weight	Jaguarundi weighs 3.5-7 kg (7.7-15.4 lb).
