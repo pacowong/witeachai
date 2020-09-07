@@ -23,3 +23,6 @@ Suppose you hava already develop your app on Wit.ai. Your `proj_name` set in the
 1. You can update the responses from `eduai_suite/eduai_server/instance/big_cat_fact_proj/responses`. Each file corresponds to one intent. Such file can be opened via Microsoft Excel. Each row represents one possible combinations of the entities.
 2. Then you need to configure the response compilation tools. You should edit the first few lines for the inputs and output directories in `eduai_suite/eduai_server/compile_talk_videos.py` 
 3. Lastly, you can compile the talking head responses using `python compile_talk_videos.py`
+
+# System Flow for Classroom Chatbot via Witeach.ai
+![System Flow](eduai_suite/eduai_server/flask_chatbot/static/images/homepage.png)
