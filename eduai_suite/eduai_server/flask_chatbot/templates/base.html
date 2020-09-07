@@ -1,0 +1,57 @@
+<!doctype html>
+<title>{% block title %}{% endblock %} - Edu AI Suite</title>
+<!--link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='chatroom.css') }}">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<div class="container">
+  <header class="py-5">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Witeach.ai Classroom <span class="sr-only">(current)</span></a>
+          </li>
+          {% if g.user %}
+          <li class="nav-item">
+            <li class="nav-item"><span class="nav-link">Welcome back, {{ g.user['username'] }}!</span></li>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <li class="nav-item"><span class="nav-link">Empowering Students and Teachers for Today and for the Future</span></li>
+          </li>
+          {% endif %}
+        </ul>
+        <div class="mt-2 mt-md-0">
+          <ul class="navbar-nav mr-auto">
+            {% if g.user %}
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.logout') }}">Log Out</a></li>
+            {% else %}
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.register') }}">Register</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.login') }}">Log In</a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>
+
+<section class="container">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+  {% for message in get_flashed_messages() %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  {% block content %}{% endblock %}
+</section>
+
+<footer class="container">
+  © 2020
+  Powered by <a href="https://wit.ai/">Wit.ai</a> and <a href="https://github.com/Rudrabha/Wav2Lip">Wav2Lip</a>
+</footer>

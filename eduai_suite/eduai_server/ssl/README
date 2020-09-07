@@ -1,0 +1,2 @@
+Folder to store self-signed certificate in order to use speech in browser.
+Instruction: https://devcenter.heroku.com/articles/ssl-certificate-self

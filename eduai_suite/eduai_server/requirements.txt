@@ -1,0 +1,5 @@
+#Please also refer to setup.py
+Flask==1.1.2
+wit==6.0.0
+gTTS==2.1.1
+pandas==1.0.5

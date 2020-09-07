@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  {% if g.user %}
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <h2>{% block title %}Post your questions about {{ g.chatbot_proj['title'] }}{% endblock %}</h2>
+    <div class="card m-0">
+      <div class="chat-container">
+        <form method="post">
+          <label for="message" class="py-3">Text Message: </label>
+          <input name="message" id="message" placeholder="How tall is a tiger?" value="{{ request.form['message'] }}" required>
+          <!--label for="body">Body</label-->
+          <!--textarea name="body" id="body">{{ request.form['body'] }}</textarea-->
+          <input class="btn btn-success" type="submit" value="Send Text Message">
+        </form>
+        <div>
+          <div id="controls">
+            <label for="message" class="py-3">Voice Message: </label>
+            <button id="recordButton" class="btn btn-primary">Record</button>
+            <button id="stopButton" class="btn btn-danger" disabled>Stop</button>
+            <button id="audioMessageSendButton" class="btn btn-success" disabled>Send Voice Message</button>
+          </div>
+          <audio id="audioMessage" class="d-none" controls src="">
+            Your browser does not support the
+            <code>audio</code> element.
+          </audio>
+          <!--div id="formats"></div>
+          <pre>Log</pre>
+          <pre id="log"></pre>
+          <pre>Recordings</pre-->
+          <div id="recordingsList"></div>
+        </div>      
+      </div>
+    </div>
+  </div>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  <hr>  
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card m-0">
+      <div>
+        <!--div class="selected-user">
+          <span>To: <span class="name">{{ g.user['username'] }}</span></span>
+        </div-->
+        <div class="chat-container">
+          <ul class="chat-box chatContainerScroll">
+              {% for post in posts %}
+              <li class="chat-left">
+                <div class="chat-avatar">
+                  <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png" alt="Teacher">
+                  <div class="chat-name">Teacher</div>
+                </div>
+                <div class="chat-text">{{ post['response'] }}
+                  {% if post['voice_filename'] != None %}
+                    {% if has_videos[post['voice_filename']] %}
+                    <video controls width="100%">
+                        <source 
+                          src="{{ url_for('static', filename=proj_asset_dir)}}/responses_videos/{{post['voice_filename']}}.mp4" type="video/mp4">
+                            Your browser does not support the <code>video</code> element.
+                    </video>
+                    {% else %}
+                    <audio
+                        controls
+                        src="{{ url_for('static', filename=proj_asset_dir)}}/responses_voices/{{post['voice_filename']}}">
+                            Your browser does not support the
+                            <code>audio</code> element.
+                    </audio>
+                    {% endif %}
+                  {% endif %}
+                </div>
+                <div class="chat-hour">{{ post['created'].strftime('%Y-%m-%d') }} <span class="fa fa-check-circle"></span></div>
+              </li>
+              <li class="chat-right">
+                <div class="chat-hour">{{ post['created'].strftime('%Y-%m-%d') }} <span class="fa fa-check-circle"></span></div>
+                <div class="chat-text">{{ post['message'] }}</div>
+                <div class="chat-avatar">
+                    <img src="{{ url_for('static', filename='images/avatar2.png') }}" alt="You">
+                    <div class="chat-name">{{ post['username'] }}</div>
+                </div>
+              </li>
+              {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	<!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+	<script src="{{ url_for('static', filename='js/WebAudioRecorder.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+{% endblock %}

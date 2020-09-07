@@ -1,0 +1,4 @@
+include flask_chatbot/schema.sql
+graft flask_chatbot/static
+graft flask_chatbot/templates
+global-exclude *.pyc
