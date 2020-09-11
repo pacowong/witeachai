@@ -18,7 +18,7 @@ In this repo, we demostrate how Witeach.ai can empower education: 1) training st
   2. Using the browser, you can edit the configuration in the `chatbot_proj` table of `eduai_suite/eduai_server/instance/eduai_data.sqlite` database.
   3. The `token` is the client token of your Wit.ai app while `proj_name` is a project identifier used by the Witeach.ai engine.
 
-# Update Reponses
+# Update Responses
 Suppose you hava already develop your app on Wit.ai. Your `proj_name` set in the database is `big_cat_fact_proj`
 1. You can update the responses from `eduai_suite/eduai_server/instance/big_cat_fact_proj/responses`. Each file corresponds to one intent. Such file can be opened via Microsoft Excel. Each row represents one possible combinations of the entities.
 2. Then you need to configure the response compilation tools. You should edit the first few lines for the inputs and output directories in `eduai_suite/eduai_server/compile_talk_videos.py` 
